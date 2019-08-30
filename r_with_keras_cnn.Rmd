@@ -2,9 +2,7 @@
 title: "R ve Keras'ın Bachatası"
 author: "Cihan Erman"
 date: '30 Ağustos 2019'
-output:
-  html_document:
-    df_print: paged
+output: md_document
 ---
 
 # R Dilinde Keras Kullanımı
@@ -21,7 +19,7 @@ library(keras)
 #install_keras()
 library(zeallot) # Çoklu değişken atama için.
 
-is_model = TRUE
+is_model = F
 ```
 
 # Veri Setinin Tanıtımı ve Yüklenmesi
