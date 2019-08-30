@@ -1,1 +1,1 @@
-r_with_keras_cnn
+Cnn model creation with keras in r language
